@@ -1,0 +1,27 @@
+{
+    "name": "Test",
+    "description": "Extension test for Google Chrome, Microsoft Edge and another Chromium-based and supported browser.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"   
+    },
+    
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "options_page": "files/html/options.html",
+        "default_icon": {
+            "16": "/files/icon/icon_16.png",
+            "32": "/files/icon/icon_32.png",
+            "48": "/files/icon/icon_48.png",
+            "64": "/files/icon/icon_64.png"
+        }
+    },
+    "icons": {
+      "16": "/files/icon/icon_16.png",
+      "32": "/files/icon/icon_32.png",
+      "48": "/files/icon/icon_48.png",
+      "64": "/files/icon/icon_64.png"
+    }
+  }
